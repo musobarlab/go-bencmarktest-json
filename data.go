@@ -8,6 +8,9 @@ import (
 type DataCamel struct {
 	ID                string   `json:"id"`
 	NameNameNome      string   `json:"nameNameNome"`
+	FieldOne          string   `json:"fieldOne"`
+	FieldTwo          string   `json:"fieldTwo"`
+	FieldThree        string   `json:"fieldThree"`
 	BlaBleBloQuantity uint64   `json:"blaBleBloQuantity"`
 	Images            []string `json:"images"`
 }
@@ -33,6 +36,9 @@ func FromCamelJSON(rawData []byte) (*DataCamel, error) {
 type DataSnake struct {
 	ID                string   `json:"id"`
 	NameNameNome      string   `json:"name_name_nome"`
+	FieldOne          string   `json:"field_one"`
+	FieldTwo          string   `json:"field_two"`
+	FieldThree        string   `json:"field_three"`
 	BlaBleBloQuantity uint64   `json:"bla_ble_blo_quantity"`
 	Images            []string `json:"images"`
 }
