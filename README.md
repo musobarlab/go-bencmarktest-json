@@ -2,7 +2,7 @@
 
 ### Run Benchmark Test
 ```shell
-$ make test_benc
+$ make test_bench
 ```
 
 ### Result From My Machine

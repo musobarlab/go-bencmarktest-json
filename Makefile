@@ -1,4 +1,4 @@
 .PHONY : test_bench
 
 test_bench:
-	go test . -bench=.
+	go test . -run=Bench -bench=.
